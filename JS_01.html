@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="utf-8">
+	<title>提交验证</title>
+</head>
+<body>
+	<script>
+		function Validate(){
+			var txtName =document.getElementById('txt_name');
+			var button =document.getElementById('btnValidate');
+			var form =document.getElementById('testform');
+			if (txtName.value.trim()=="") {
+				var label= document.creatElement("label");
+				label.setAttribute("for","txt_name");
+				form.insertBefore(label,button);
+				txtName.labels[1].innerHTML = "请输入";
+				txtName.labels[1].setAttribute("style","font-size:9px;color:red");
+
+			}
+
+		}
+	</script>
+
+	<form id="testform">
+		<label id="label" for="txt_name">姓名：</label>
+		<input type="txt_name">
+		<input type="button" id="btnValidate"  value="提交"onclick="Validate()">
+	</form>
+
+
+</body>
+</html>
