@@ -1,0 +1,30 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#cantiner{
+	position: relative;
+}
+
+.box{
+	margin: 0px;
+	padding: 5px;
+	float: left;
+}
+
+
+.imgBox{
+	margin: 0px;
+	padding: 5px;
+	box-shadow: 0 0 5px #ccc;
+	border-radius: 5px;
+	border:1px solid #ccc;
+	
+}
+
+.imgBox img{
+	width: 240px;
+	height: auto;
+}
+

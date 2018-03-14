@@ -1,0 +1,28 @@
+/**{
+	margin: 0px;
+	padding: 0px;
+
+}*/
+
+.container{
+
+	column-width:250px;
+	-webkit-column-width:250px;
+	column-gap:5px;
+	-webkit-column-gap:5px;
+}
+
+.container div{
+	padding: 0px;
+	border: 0px;
+	margin: 5px;
+	box-shadow: 3px #00ff00;
+}
+
+.container img{
+	width: 250px;
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+
+}
