@@ -1,17 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" manifest="start.appcache">
+<!-- 应用缓存 -->
 <head>
     <meta charset="UTF-8">
+    <!-- 屏幕适配 -->
     <meta name="viewpoint" content="width=device-width,initial-scale=1">
     <meta name="description" content="{{site.description }}">
+    <!-- 地址栏图标 -->
     <link rel="shortcut icon" href="/img/favicon.ico">
+    <title>小黑的博客</title>
+    <!-- 样式表引用 -->
     <link rel="stylesheet" type="text/css" href="/css/jquery-ui.min.css">
     <link rel="stylesheet" type="text/css" href="/css/jquery.mobile-1.4.5.min.css">
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
     <link href="/css/menu.css" rel="stylesheet" >
     <link href="/css/index.css" rel="stylesheet">
     <link href="/css/back.css" rel="stylesheet">
-
+    
+    <!-- js引用 -->
     <script type="text/javascript" src="/js/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="/js/jquery-ui.min.js"></script>
     <script type="text/javascript" src="/js/jquery.mobile-1.4.5.min.js"></script>
@@ -19,63 +25,52 @@
     <script type="text/javascript" src=""></script>
 
    
-    <title>小黑的博客</title>
 </head>
 <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Project name</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
     <header>
         <a href="/study/js03.html">asdad</a>
         <a href="http://jerrybk.github.io/study/js03.html">asdad</a>
         <a href="https://jerrybk.github.io/study/js03.html">asdad</a>
     </header>
 
-    <header>
-<!--     <script>
-    window.onload = function ()
-    {
-        var oH2 = document.getElementsByTagName("h2")[0];
-        var oUl = document.getElementsByTagName("ul")[0];
-        oH2.onclick = function ()
-        {
-            var style = oUl.style;
-            style.display = style.display == "block" ? "none" : "block";
-            oH2.className = style.display == "block" ? "open" : ""
-        }
-    }
-    </script>
- -->
-    <div id="mnav">
-        <h2><span class="navicon"></span></h2>
-        <ul>
-            <li><a href="/">网站首页</a></li>
-            <li><a href="/link.html">博客导航</a></li>
-            <li><a href="/news/">杂谈</a></li>
-            <li><a href="/novels/">梦空间</a></li>
-            <li><a href="/about.html">关于我</a></li>
-            <!-- <li><a href="/e/tool/gbook/?bid=3">留言</a></li> -->
-        </ul>
-    </div> 
 
-      <div class="logo" data-scroll-reveal="enter right over 1s" data-scroll-reveal-id="1" style="-webkit-transform: translatex(0);transform: translatex(0);opacity: 1;-webkit-transition: -webkit-transform 1s ease-in-out 0s,  opacity 1s ease-in-out 0s;transition: transform 1s ease-in-out 0s, opacity 1s ease-in-out 0s;-webkit-perspective: 1000;-webkit-backface-visibility: hidden;" data-scroll-reveal-initialized="true">
-    </div>
-    <nav class="topnav">
-    <a href="/"><span>首页</span><span class="en">Home</span></a>
-    <a href="/link.html" target="_blank"><span>博客导航</span><span class="en">blogs</span></a>
-    <a href="/news/"><span>杂谈</span><span class="en">news</span></a>
-    <a href="/novels/"><span>梦空间</span><span class="en">Dream</span></a>
-    <!-- <a href="/e/tool/gbook/?bid=3"><span>留言</span><span class="en">Saying</span></a> -->
-    <a href="/about.html"><span>关于我</span><span class="en">About</span></a>
-    </nav>
-    </header>
-
-    <div class="content">
-        <nav ></nav>
-        <img src="./img/01.jpg">
-        
-    </div>
-
-    <footer>
-        
-
-    </footer>
 </body>
 </html>
