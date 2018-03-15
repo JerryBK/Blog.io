@@ -12,7 +12,7 @@ $(document).ready(function(){
 					var box = $("<div>").addClass("box").appendTo($("#container"));
 					var content=$("<div>").addClass("imgBox").appendTo(box);
 					// console.log("./img/"+$(value).attr("src"));
-					$("<img>").attr("src","./img/"+$(value).attr("src")).appendTo(content);
+					$("<img>").attr("src","../img/"+$(value).attr("src")).appendTo(content);
 				});
 				imgLocation();
 			}			
