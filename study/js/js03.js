@@ -3,9 +3,9 @@
 window.onload = function(){
 //零，主函数
 	imgLocation("container","box");
-	var imgData = {"data":[{"src":"01.jpg","title":"1"},{"src":"02.jpg","title":"2"},{"src":"03.jpg","title":"3"},{"src":"04.jpg","title":"4"},{"src":"05.jpg","title":"5"},{"src":"06.jpg","title":"6"},{"src":"07.jpg","title":"7"},{"src":"08.jpg","title":"8"},{"src":"09.jpg","title":"9"}]}
+	var imgData = {"data":[{"src":"../img/01.jpg","title":"1"},{"src":"../img/02.jpg","title":"2"},{"src":"../img/03.jpg","title":"3"},{"src":"../img/04.jpg","title":"4"},{"src":"../img/05.jpg","title":"5"},{"src":"../img/06.jpg","title":"6"},{"src":"../img/07.jpg","title":"7"},{"src":"../img/08.jpg","title":"8"},{"src":"../img/09.jpg","title":"9"}]}
 	
-	// var imgData = {"data":[{"src":"01.jpg"}]}
+	// var imgData = {"data":[{"src":"../img/01.jpg"}]}
 		//加载新图片
 	window.onscroll = function(){
 		if (checkFlag()){
