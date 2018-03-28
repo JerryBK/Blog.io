@@ -10,9 +10,16 @@
     <link rel="shortcut icon" href="./img/favicon.ico">
     <title>小黑的博客</title>
     <!-- 样式表引用 -->
-    <link rel="stylesheet" type="text/css" href="/index/css/jquery-ui.min.css">
-    <link rel="stylesheet" type="text/css" href="/index/css/jquery.mobile-1.4.5.min.css">
-    <link rel="stylesheet" type="text/css" href="/index/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/jquery-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+
+    <!-- js引用 -->
+    <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="./js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" src="./js/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./js/js/mouse.js"></script>
 
    
 </head>
@@ -35,17 +42,18 @@
           <ul class="nav navbar-nav">
             <li><a href="./link.html" title="利用href的跳转">博客导航<span class="sr-only">(current)</span></a></li>
             <li><a href="./news/index.html">杂谈</a></li>
-            <li><a href="./novels/index.html">梦空间</a></li>
+            <li><a href="./about/person.html">个人简历</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">关于我<span class="caret"></span></a>
-              <ul class="dropdown-menu">
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
                 <li><a href="./about/person.html">个人简历</a></li>
                 <li><a href="./about/company.html">十页</a></li>
                 <li role="separator" class="divider"></li>
                 <li><a href="./study/">瀑布流三个实现</a></li>
               </ul>
+
             </li>
           </ul>
         </div><!-- /.navbar-collapse -->
@@ -114,12 +122,7 @@
         </div>
     </footer>
     
-    <!-- js引用 -->
-    <script type="text/javascript" src="/index/js/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="/index/js/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="/index/js/jquery.mobile-1.4.5.min.js"></script>
-    <script type="text/javascript" src="/index/js/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/index/js/js/mouse.js"></script>
+
 
 </body>
 </html>
